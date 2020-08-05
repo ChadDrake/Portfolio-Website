@@ -80,3 +80,14 @@ header nav ul :last-child {
   display: block;
   margin-bottom:20px;
 }  
+
+.input-field {
+  display:flex;
+  flex-direction: row;
+  margin-right: 100px;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+}

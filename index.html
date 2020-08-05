@@ -101,22 +101,15 @@
     <div class="group">
       <div class="item form">
         <form action="https://formspree.io/mlepzopy" method="POST">
-          <label>
-            Name:
-            <input type="text" name="name" placeholder="What is your name?">
+        <div class="input-field">
+            <input name="name" type="text" placeholder="Name?">
+            <input name="phone-number" type="text" placeholder="Phone number?">
+            <input name="email-address" type="text" placeholder="Email?">
+        </div>
+        <div class="text-area">
+          <input id="form-message" name="message" rows="10" cols="50" type="text" placeholder="How can I help you?">
 
-          </label>
-          
-          <label>
-            Email:
-            <input type="text" name="_replyto" placeholder="What is your email?">
-          
-          </label>
-         
-          <label>
-            Message:
-            <textarea name="message" rows="10" cols="50" placeholder="How can I help you?"></textarea>
-          </label>
+        </div>
 
           <button type="submit">Submit</button>
         </form>
