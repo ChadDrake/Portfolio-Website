@@ -64,6 +64,8 @@ header nav ul :last-child {
 }
 
 .item {
+  display:flex;
+  flex-direction: column;
   flex: 1;
   margin: 10px;
 }
@@ -77,8 +79,9 @@ header nav ul :last-child {
   }
 
 .form {
-  display: block;
+  display: flex;
   margin-bottom:20px;
+  flex-direction:column
 }  
 
 .input-field {
