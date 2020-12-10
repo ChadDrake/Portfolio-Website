@@ -1,127 +1,305 @@
-<!DOCTYPE html> <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chad Drake : Web Developer</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chad Drake : Web Developer</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
-    type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <body>
+    <header>
+      <h1>Chad Drake</h1>
+      <nav>
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article class="group">
+          <div class="item">
+            <img
+              class="img"
+              src="images/Chad-Drake-Profile.jpg"
+              alt="Chad Drake Profile"
+            />
+          </div>
+          <div class="item">
+            <div class="title">
+              <h2 id="introduction">Hello.</h2>
+            </div>
+            <p>
+              My name is Chad Drake, and I am a web developer living in Saint
+              Louis, Missouri.
+            </p>
+            <p>As an avid gamer, I enjoy:</p>
+            <ul>
+              <li>Web designs that feel like a critical hit.</li>
+              <li>Good code that gets its proficiency bonus.</li>
+              <li>Gaming with like-minded developers.</li>
+            </ul>
+            <p>
+              Please, investigate my humble website, and I encourage you to
+              <a href="#contact">Contact Me.</a>
+            </p>
+          </div>
+        </article>
+      </section>
+      <hr />
+      <section>
+        <article class>
+          <div class="group reduced-margin-group">
+            <div class="item">
+              <div class="title">
+                <h2 id="portfolio">Portfolio</h2>
+              </div>
+            </div>
+          </div>
+          <div class="title">
+            <h3>OtakuRisuto</h3>
+          </div>
+          <div class="group">
+            <div class="item">
+              <img
+                class="img"
+                src="images/dashboard-empty-list.PNG"
+                alt="OtakuRisuto Screenshot"
+              />
+            </div>
+            <div class="item">
+              <p>
+                OtakuRisuto is an app I collaborated on both front-end and
+                back-end. It is intended to allow users to organize anime that
+                they want to watch, have watched, or by any other way they want.
+                Users can also share these lists of anime, and comment on other
+                users' lists, as well as rate them or even copy them for
+                themselves.
+              </p>
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/Cap3-Nate-Chad-Brandon-Michael-Josh/OtakuRisuto"
+                    >Github Client Repo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Cap3-Nate-Chad-Brandon-Michael-Josh/OtakuRisutoServer"
+                    >Github Server Repo</a
+                  >
+                </li>
+                <li>
+                  <a href="https://otaku-risuto.vercel.app/">OtakuRisuto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="title">
+            <h3>Fitnotes</h3>
+          </div>
+          <div class="group">
+            <div class="item">
+              <p>
+                FitNotes is an app I designed and developed to allow users to
+                track their progress toward their fitness goals. Each user
+                starts with the metrics of weight and body-fat percentage, and
+                can add progress points to those metrics which will be displayed
+                as a graph over time, so you can visualize your progress. Users
+                can also add any other metrics they might want to. For example,
+                their pull up count, or max bench press.
+              </p>
+              <ul>
+                <li>
+                  <a href="https://github.com/ChadDrake/fitnotes-client"
+                    >Github Client Repo</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/ChadDrake/fitnotes-server"
+                    >Github Server Repo</a
+                  >
+                </li>
+                <li>
+                  <a href="https://fitnotes-client.vercel.app/">FitNotes</a>
+                </li>
+              </ul>
+            </div>
+            <div class="item">
+              <img
+                class="img"
+                src="images/Fitnotes-Home.PNG"
+                alt="FitNotes Screenshot"
+              />
+            </div>
+          </div>
+          <div class="title">
+            <h3>Spaced-Repetition</h3>
+          </div>
 
-<body>
+          <div class="group">
+            <div class="item">
+              <img
+                class="img"
+                src="images/guess.PNG"
+                alt="Spaced-Repetition App Screenshot"
+              />
+            </div>
+            <div class="item">
+              <p>
+                Spaced Repetition is a project I worked on in school. I designed
+                and developed it after being given the project parameters. It's
+                purpose is to help user's learn Spainish using the spaced
+                repetition learning process. Users are given a word, and asked
+                to guess the meaning. If they get it right, it is moved back in
+                the list, if not, they will be asked again shortly.
+              </p>
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/ChadDrake/spaced-repetition-server"
+                    >Github Server Repo</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/ChadDrake/spaced-repetition"
+                    >Github Client Repo</a
+                  >
+                </li>
+                <li>
+                  <a href="https://spaced-repetition-652exis5p.vercel.app/"
+                    >SpacedRepetition</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+      <hr />
+      <section>
+        <article class="group">
+          <div class="item">
+            <div class="title">
+              <h2 id="about">About</h2>
+            </div>
 
-  <header>
-    <h1>Chad Drake</h1>
-    <nav>
-      <ul>
-        <li><a href='#introduction'>Introduction</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <article class="group">
-        <div class="item">
-          <img src="images/Chad-Drake-Profile.jpg" alt="Chad Drake Profile">
-        </div>
-        <div class="item">
-          <h2 id="introduction">Hello.</h2>
-          <p> My name is Chad Drake, and I am a web developer living in Saint Louis, Missouri.</p>
-          <p> As an avid gamer, I enjoy: </p>
-          <ul>
-            <li>Web designs that feel like a critical hit.</li>
-            <li>Good code that gets its proficiency bonus.</li>
-            <li>Gaming with like-minded developers.</li>
-          </ul>
-          <p> Please, investigate my humble website, and I encourage you to <a href="#contact">Contact Me.</a></p>
-        </div>
-      </article>
-        </section>
-    <hr>
-    <section>
-      <article class>
-        <div class="group reduced-margin-group">
-        <div class="item">
-          <h2 id="portfolio"> Portfolio </h2>
-        </div>
-        </div>
-      <div class="group">
-        <div class="item">
-          <img src="images/Placeholder.png" alt="Fantasy App Screenshot">
-        </div>
-        <div class="item">
-          <h3> Fantasy App</h3>
-          <p>This is a description of my fantasy genre app, along with what it does, who it is for, and why I made it, my approach to making it, what I learned making it, 
-            what skills I used, and links to it <a href="placeholder">Placeholder link to Github</a> <a href="placeholder">Placeholder link to working app</a></p>
-        </div>
-        </div>
-      </article>
-    </section>
-    <hr>
-    <section>
-      <article class="group">
-        <div class="item">
-          <h2 id="about">About.</h2>
-          <p> I am, always have been, and always will be, a nerd (as evidenced by the fact I spend my free time playing
-            Dungeons & Dragons, reading, or watching anime). As such, and considering my father is also a programmer, it
-            seems inevitable that I have found my way into working with code.</p>
-          <p> I am currently studying at <a href="http://thinkful.com"> Thinkful</a>. I have only really just begun this
-            endeavor, however, I feel I am making rapid progress! One day I hope to be able to build applications and
-            websites for clients.</p>
-          <p> If you are in the market for a new developer, passing on me would be a mistake. I can offer full-stack web development services of JavaScript, CSS, and HTML I implore you to reach out
-            to me however you prefer. I would love to join your team of developers to help build some great software.
-          </p>
-    
-    </div>
-  </article>
-  </section>
-  <hr>
-  <section>
-    <article> 
-    <div class="group reduced-margin-group">
-      <div class="item">
-        <h2 id="contact">Contact.</h2>
-        <p>Below you can find links to my LinkedIn, GitHub, Email, or feel free to shoot me a message!</p>
-      </div>
-    </div>
-    <div class="group">
-      <div class="item">
-        <a href="https://linkedin.com/in/chad-drake-a6aa431aa">LinkedIn</a>
-      </div>
-      <div class="item">
-        <a href="https://github.com/ChadDrake">GitHub</a>
-      </div>
-      <div class="item">
-        <a href="mailto:chaddrake1313@.yahoo.com"> Chaddrake1313@yahoo.com </a>
-      </div>
-      </div>
-    </article>
-  </section>
-  <section>
-    <div class="group">
-      <div class="item form">
-        <form action="https://formspree.io/mlepzopy" method="POST">
-        <div class="input-field">
-            <input name="name" type="text" placeholder="Name?">
-            <input name="phone-number" type="text" placeholder="Phone number?">
-            <input name="email-address" type="text" placeholder="Email?">
-        </div>
-        <div class="text-area">
-          <textarea  id="form-message" name="message" rows="10" cols="25"> How can I help you?</textarea>
-          
-        </div>
+            <p>
+              I am, always have been, and always will be, a nerd (as evidenced
+              by the fact I spend my free time playing Dungeons & Dragons,
+              reading, or watching anime). As such, and considering my father is
+              also a programmer, it seems inevitable that I have found my way
+              into working with code.
+            </p>
+            <p>
+              I am currently studying at
+              <a href="http://thinkful.com"> Thinkful</a>. I have only really
+              just begun this endeavor, however, I feel I am making rapid
+              progress! One day I hope to be able to build applications and
+              websites for clients.
+            </p>
+            <p>
+              If you are in the market for a new developer, passing on me would
+              be a mistake. I can offer full-stack web development services of
+              JavaScript, CSS, and HTML I implore you to reach out to me however
+              you prefer. I would love to join your team of developers to help
+              build some great software.
+            </p>
+          </div>
+        </article>
+      </section>
+      <hr />
+      <section>
+        <article>
+          <div class="group reduced-margin-group">
+            <div class="item">
+              <div class="title">
+                <h2 id="contact">Contact</h2>
+              </div>
 
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-    </div>
-  </section>
-</main>
-</body>
+              <p class="title">
+                Below you can find links to my LinkedIn, GitHub, Email, or feel
+                free to shoot me a message!
+              </p>
+            </div>
+          </div>
+          <div class="group title">
+            <div class="item">
+              <a href="https://linkedin.com/in/chad-drake-a6aa431aa"
+                >LinkedIn</a
+              >
+            </div>
+            <div class="item">
+              <a href="https://github.com/ChadDrake">GitHub</a>
+            </div>
+            <div class="item">
+              <a href="mailto:chaddrake1313@.yahoo.com">
+                Chaddrake1313@yahoo.com
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section>
+        <div class="group">
+          <div class="item form">
+            <form action="https://formspree.io/mlepzopy" method="POST">
+              <div class="input-field">
+                <div>
+                  <input
+                    aria-label="First-Name"
+                    name="name"
+                    type="text"
+                    placeholder="Name?"
+                  />
+                </div>
+                <div>
+                  <input
+                    aria-label="phone-number"
+                    name="phone-number"
+                    type="text"
+                    placeholder="Phone number?"
+                  />
+                </div>
+                <div>
+                  <input
+                    aria-label="email-address"
+                    name="email-address"
+                    type="text"
+                    placeholder="Email?"
+                  />
+                </div>
+              </div>
+              <div class="text-area">
+                <textarea
+                  aria-label="message"
+                  id="form-message"
+                  name="message"
+                  rows="10"
+                  cols="25"
+                >
+ How can I help you?</textarea
+                >
+              </div>
 
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
