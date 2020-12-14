@@ -63,6 +63,12 @@ header nav ul :last-child {
   }
 }
 
+@media all and (max-width: 440px) {
+  header nav ul {
+    flex-direction: column;
+  }
+}
+
 .item {
   display: flex;
   flex-direction: column;
@@ -106,6 +112,17 @@ form {
   max-width: 70%;
   max-height: 100%;
 }
+.projectImg {
+  width: auto;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .title {
   text-align: center;
+}
+.input-bar {
+  margin: 10px;
 }
